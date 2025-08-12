@@ -4,12 +4,8 @@
 > This is a fictional scenario based on public machine learning practices.  
 > No real project or proprietary data is used.
 
----
-
 ## Problem
 A fictional retail analytics team needs **daily demand forecasts** that capture sequential patterns across products while also integrating complex external signals.
-
----
 
 ## Approach
 1. **Modeling**
@@ -34,25 +30,23 @@ A fictional retail analytics team needs **daily demand forecasts** that capture 
 4. **Experiment Tracking**
    - Logged hyperparameters, metrics, and model versions in **MLFlow** for reproducibility.
 
----
 
 ## Challenges
 - Balancing DeepAR’s sequence length with LightGBM’s feature window for optimal residual modeling.
 - Ensuring temporal alignment between DeepAR outputs and LightGBM training data.
+- Feature engineering to find best signal / fit.
 
----
 
 ## Outcome
 - **Hypothetical** results in this fictional scenario showed improved accuracy over standalone DeepAR or LightGBM.
 - Demonstrated the benefit of combining deep autoregressive sequence modeling with gradient boosting for feature-rich forecasting.
+- Demonstrated the importance of proper data prep and feature engineering. 
 
----
 
 ## Visual
 **Caption:** Mock RMSE comparison between DeepAR, LightGBM, and the hybrid model (generated for this fictional case study).  
-*Placeholder image or chart would go here.*
 
----
+![Hybrid Model Comparison](/h_chart.png)
 
 ## Key Skills
 
