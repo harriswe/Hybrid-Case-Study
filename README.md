@@ -46,7 +46,7 @@ A fictional retail analytics team needs **daily demand forecasts** that capture 
 ## Visual
 **Caption:** Mock RMSE comparison between DeepAR, LightGBM, and the hybrid model (generated for this fictional case study).  
 
-![Hybrid Model Comparison](/h_chart.png)
+![Hybrid Model Comparison](/h_plot.png)
 
 ## Key Skills
 
